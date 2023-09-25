@@ -23,32 +23,37 @@ public class FindTheSecondLetterInAString {
 
         int max1 = -1, max2 = -1;
 
-        for(int element: map.values()){
-            if(max1 < element){
+        for(char element: map.keySet()){
+            if(max1 < map.get(element)){
                 max2 = max1;
-                max1 = element;
-            } else if(max2 < element){
-                max2 = element;
+                max1 = map.get(element);
+            } else if(max2 < map.get(element)){
+                max2 = map.get(element);
             }
         }
 
-        List<Character> listOfChars = new ArrayList<>();
-
-        for(Character ch: map.keySet()) {
-            if(map.get(ch) == 1) {
-                listOfChars.add(ch);
+        for(Map.Entry<Character, Integer> entry: map.entrySet()) {
+            if (entry.getValue() == max2) {
+                System.out.println(entry.getKey());
+                break;
             }
         }
 
-        System.out.println(listOfChars);
+
 
         List<String> result = new ArrayList<>();
 
         for(Character ch: map.keySet()) {
-            if(map.get(ch) > 1) {
+            if(map.get(ch) == max2) {
                 result.add(ch + map.get(ch).toString());
             }
         }
+
+//        for(Character ch: map.keySet()) {
+//            if(map.get(ch) > 1) {
+//                result.add(ch + map.get(ch).toString());
+//            }
+//        }
 
         System.out.println(result);
     }

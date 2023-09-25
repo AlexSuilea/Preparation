@@ -1,10 +1,12 @@
 package hashtable;
 
+import java.util.Arrays;
+
 public class MainHashTable {
     public static void main(String[] args) {
-        int[] arr = new int[] {1,2,3,1,1,3};
-        NumberOfGoodPairs numberOfGoodPairs = new NumberOfGoodPairs();
-        System.out.println(numberOfGoodPairs.numIdenticalPairs(arr));
+//        int[] arr = new int[] {1,2,3,1,1,3};
+//        NumberOfGoodPairs numberOfGoodPairs = new NumberOfGoodPairs();
+//        System.out.println(numberOfGoodPairs.numIdenticalPairs(arr));
 //
 //        JewelsAndStones jewelsAndStones = new JewelsAndStones();
 //        System.out.println(jewelsAndStones.numJewelsInStones("aA", "aAAbbbbb")); //faster
@@ -14,5 +16,8 @@ public class MainHashTable {
 
 //        RansomNote ransomNote = new RansomNote();
 //        System.out.println(ransomNote.canConstruct("aa","ab"));
+//        FindTheSecondLetterInAString.SecondLetter("suilea mihai alexandru");
+        TopKElement topKElement = new TopKElement();
+        System.out.println(Arrays.toString(topKElement.topKFrequent(new int[]{1, 1, 1, 2, 2, 3}, 2)));
     }
 }
