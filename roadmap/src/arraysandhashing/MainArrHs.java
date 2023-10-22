@@ -4,15 +4,10 @@ import java.util.Arrays;
 
 public class MainArrHs {
     public static void main(String[] args) {
-//        ContainsDuplicate containsDuplicate = new ContainsDuplicate();
-//        System.out.println(containsDuplicate.containsDuplicate(new int[]{1,2,3,1}));
-
-//        ValidAnagram validAnagram = new ValidAnagram();
-//        System.out.println(validAnagram.isAnagram("anagram","nagaram"));
-//        System.out.println(validAnagram.isAnagram("rat","car"));
-
-//        TwoSum twoSum = new TwoSum();
-//        System.out.println(Arrays.toString(twoSum.twoSum(new int[]{3,2,4}, 6)));
+//        System.out.println(ContainsDuplicate.containsDuplicate2(new int[]{1,2,3,1}));
+//        System.out.println(ValidAnagram.isAnagram2("anagram","nagaram"));
+//        System.out.println(ValidAnagram.isAnagram2("rat","car"));
+        System.out.println(Arrays.toString(TwoSum.twoSum2(new int[]{2,7,11,15}, 9)));
 
 //        GroupAnagram groupAnagram = new GroupAnagram();
 //        System.out.println(groupAnagram.groupAnagrams(new String[]{"eat","tea","tan","ate","nat","bat"}));
@@ -43,6 +38,6 @@ public class MainArrHs {
 //        System.out.println(ValidSudoku.isValidSudoku(board));
 //        System.out.println(ValidSudoku.isValidSudoku(board2));
 
-        System.out.println(LongestConsecutiveSequence.longestConsecutive(new int[]{100,3,200,4,1,2}));
+//        System.out.println(LongestConsecutiveSequence.longestConsecutive(new int[]{100,3,200,4,1,2}));
     }
 }
