@@ -1,7 +1,5 @@
 package twopointers;
 
-import java.util.Arrays;
-
 public class MainTwoPointers {
     public static void main(String[] args) {
 //        System.out.println(ValidPalindrome.isValidPalindrome("A man, a plan, a canal: Panama"));
