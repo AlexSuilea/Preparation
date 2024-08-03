@@ -1,4 +1,4 @@
-package linkedlist;
+package singlelinkedlist;
 
 public class MiddleNode {
     public ListNode middleNode(ListNode head) {

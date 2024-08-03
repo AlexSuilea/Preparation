@@ -1,4 +1,4 @@
-package staticarray;
+package arrays.staticarray;
 
 import java.util.Arrays;
 

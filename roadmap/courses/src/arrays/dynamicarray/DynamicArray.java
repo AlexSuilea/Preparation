@@ -1,4 +1,4 @@
-package dynamicarray;
+package arrays.dynamicarray;
 
 public class DynamicArray {
     private int capacity;

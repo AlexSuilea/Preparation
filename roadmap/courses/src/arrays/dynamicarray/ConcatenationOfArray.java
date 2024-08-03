@@ -1,4 +1,4 @@
-package dynamicarray;
+package arrays.dynamicarray;
 
 public class ConcatenationOfArray {
     public static int[] getConcatenation(int[] nums) {

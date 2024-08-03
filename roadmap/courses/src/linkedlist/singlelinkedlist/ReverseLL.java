@@ -1,10 +1,10 @@
-package linkedlist;
+package linkedlist.singlelinkedlist;
 
 public class ReverseLL {
-    public static ListNode reverseList(ListNode head) {
-        ListNode current = head;
-        ListNode previous = null;
-        ListNode nextCurrent = null;
+    public static ListNodeSLL reverseList(ListNodeSLL head) {
+        ListNodeSLL current = head;
+        ListNodeSLL previous = null;
+        ListNodeSLL nextCurrent = null;
 
         while(current != null) {
             nextCurrent = current.next;

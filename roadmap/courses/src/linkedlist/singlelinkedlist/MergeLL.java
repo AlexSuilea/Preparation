@@ -1,9 +1,9 @@
-package linkedlist;
+package linkedlist.singlelinkedlist;
 
 public class MergeLL {
-    public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        ListNode dummy = new ListNode(0);
-        ListNode node = dummy;
+    public static ListNodeSLL mergeTwoLists(ListNodeSLL list1, ListNodeSLL list2) {
+        ListNodeSLL dummy = new ListNodeSLL(0);
+        ListNodeSLL node = dummy;
 
         while(list1 != null && list2 != null) {
             if(list1.val < list2.val) {

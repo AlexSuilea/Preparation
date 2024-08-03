@@ -1,4 +1,4 @@
-package linkedlist;
+package singlelinkedlist;
 
 public class ListNode {
     public Integer value;
