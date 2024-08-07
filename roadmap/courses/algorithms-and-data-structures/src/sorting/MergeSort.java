@@ -29,7 +29,7 @@ public class MergeSort {
         int i=0, j=0, k=left;
 
         while(i<length1 && j<length2) {
-            if(tempL[i] < tempR[j]) {
+            if(tempL[i] <= tempR[j]) {
                 arr[k] = tempL[i];
                 i++;
             } else {
