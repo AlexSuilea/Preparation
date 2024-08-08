@@ -10,8 +10,13 @@ public class MainSorting {
 //        List<Pair> pairs = Arrays.asList(new Pair(5, "apple"), new Pair(2, "banana"), new Pair(9, "cherry"));
 //        System.out.println(InsertionSortWithPairs.insertionSort(pairs));
 //        System.out.println(Arrays.toString(MergeSort.mergeSort(new int[]{7, 2, 5, 7, 3, 4, 6, 1}, 0, 7)));
+//        List<Pair> pairs = Arrays.asList(new Pair(5, "apple"), new Pair(2, "banana"), new Pair(9, "cherry"),
+//                new Pair(1, "date"), new Pair(9, "elderberry"));
+//        System.out.println(MergeSortWithPairs.mergeSort(pairs));
+//        System.out.println(Arrays.toString(QuickSort.quickSort(new int[]{7, 2, 5, 7, 3, 4, 6, 1}, 0, 7)));
         List<Pair> pairs = Arrays.asList(new Pair(5, "apple"), new Pair(2, "banana"), new Pair(9, "cherry"),
                 new Pair(1, "date"), new Pair(9, "elderberry"));
-        System.out.println(MergeSortWithPairs.mergeSort(pairs));
+        System.out.println(QuickSortWithPairs.quickSort(pairs));
+
     }
 }
